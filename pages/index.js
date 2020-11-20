@@ -10,9 +10,9 @@ export default function Home() {
             <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet" />
          </Head>
 
-         <main className="px-4 py-6 bg-gray-300">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-               <article className="md:col-start-1 md:col-end-3 bg-purple-800 px-5 py-6 text-white">
+         <main className="min-h-screen flex flex-col justify-center px-4 lg:px-8 xl:px-32 py-6 bg-gray-300">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
+               <article className="lg:col-start-1 lg:col-end-3 bg-purple-800 px-5 py-6 text-white">
                   <div className="flex items-center">
                      <img src="/image-daniel.jpg" alt="" className="rounded-full" />
                      <div className="ml-3">
@@ -52,7 +52,7 @@ export default function Home() {
                      <p className="text-gray-500 mt-4 text-lg">“Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love.”</p>
                   </div>
                </article>
-               <article className="md:col-start-2 md:col-end-4 bg-gray-900 px-5 py-6 text-white">
+               <article className="lg:col-start-2 lg:col-end-4 bg-gray-900 px-5 py-6 text-white">
                   <div className="flex items-center">
                      <img src="/image-patrick.jpg" alt="" className="rounded-full" />
                      <div className="ml-3">
@@ -67,7 +67,7 @@ export default function Home() {
                      junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people.”</p>
                   </div>
                </article>
-               <article className="md:col-start-4 md:col-end-5 md:row-start-1 md:row-end-3 bg-white px-5 py-6 text-white">
+               <article className="lg:col-start-4 lg:col-end-5 lg:row-start-1 lg:row-end-3 bg-white px-5 py-6 text-white">
                   <div className="flex items-center">
                      <img src="/image-kira.jpg" alt="" className="rounded-full" />
                      <div className="ml-3">
